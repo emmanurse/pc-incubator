@@ -46,6 +46,19 @@ parameters:
     - input/resources/conditiondefinition/StructureDefinition-ConditionDefinition.xml
     - input/resources/linkage/StructureDefinition-Linkage.xml
 
+resources:
+  Linkage/example:
+    name: linkage-example
+    description: An example of a Linkage resource that links two resources together.
+  ClinicalAssessment/example:
+    name: assessment-example
+  List/ClinicalAssessment-examples:
+    description: A list of examples of the ClinicalAssessment resource.
+  List/ConditionDefinition-examples:
+    description: A list of examples of the ConditionDefinition resource.
+  List/Linkage-examples:
+    description: A list of examples of the Linkage resource.
+
 pages:
   index.md:
     title: Patient Care Incubator

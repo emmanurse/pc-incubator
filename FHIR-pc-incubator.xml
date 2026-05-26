@@ -4,14 +4,12 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="ClinicalAssessment/example" key="ClinicalAssessment-example" name=""/>
 <artifact id="StructureDefinition/ClinicalAssessment" key="StructureDefinition-ClinicalAssessment" name="Clinical assessment"/>
 <artifact id="ValueSet/clinicalassessment-prognosis" key="ValueSet-clinicalassessment-prognosis" name="Clinical assessment Prognosis"/>
 <artifact id="ValueSet/ClinicalAssessment-status" key="ValueSet-ClinicalAssessment-status" name="Clinical assessment Status"/>
 <artifact id="ValueSet/clinicalassessment-change-pattern" key="ValueSet-clinicalassessment-change-pattern" name="ClinicalAssessment Change Pattern"/>
 <artifact id="ValueSet/clinicalassessment-status-reason" key="ValueSet-clinicalassessment-status-reason" name="ClinicalAssessment Status Reason"/>
 <artifact id="List/ClinicalAssessment-examples" key="List-ClinicalAssessment-examples" name="ClinicalAssessment-examples"/>
-<artifact id="List/ClinicalAssessment-operations" key="List-ClinicalAssessment-operations" name="ClinicalAssessment-operations"/>
 <artifact id="SearchParameter/ClinicalAssessment-date" key="SearchParameter-ClinicalAssessment-date" name="ClinicalAssessmentDateSearchParam"/>
 <artifact id="SearchParameter/ClinicalAssessment-encounter" key="SearchParameter-ClinicalAssessment-encounter" name="ClinicalAssessmentEncounterSearchParam"/>
 <artifact id="SearchParameter/ClinicalAssessment-finding-code" key="SearchParameter-ClinicalAssessment-finding-code" name="ClinicalAssessmentFinding-codeSearchParam"/>
@@ -25,12 +23,11 @@
 <artifact id="SearchParameter/ClinicalAssessment-subject" key="SearchParameter-ClinicalAssessment-subject" name="ClinicalAssessmentSubjectSearchParam"/>
 <artifact id="SearchParameter/ClinicalAssessment-supporting-info" key="SearchParameter-ClinicalAssessment-supporting-info" name="ClinicalAssessmentSupporting-infoSearchParam"/>
 <artifact id="StructureDefinition/ConditionDefinition" key="StructureDefinition-ConditionDefinition" name="Condition Definition"/>
-<artifact id="ValueSet/condition-precondition-type" key="ValueSet-condition-precondition-type" name="Condition Precondition Type"/>
 <artifact id="CodeSystem/condition-precondition-type" key="CodeSystem-condition-precondition-type" name="Condition Precondition Type"/>
-<artifact id="ValueSet/condition-questionnaire-purpose" key="ValueSet-condition-questionnaire-purpose" name="Condition Questionnaire Purpose"/>
+<artifact id="ValueSet/condition-precondition-type" key="ValueSet-condition-precondition-type" name="Condition Precondition Type ValueSet"/>
 <artifact id="CodeSystem/condition-questionnaire-purpose" key="CodeSystem-condition-questionnaire-purpose" name="Condition Questionnaire Purpose"/>
+<artifact id="ValueSet/condition-questionnaire-purpose" key="ValueSet-condition-questionnaire-purpose" name="Condition Questionnaire Purpose ValueSet"/>
 <artifact id="List/ConditionDefinition-examples" key="List-ConditionDefinition-examples" name="ConditionDefinition-examples"/>
-<artifact id="List/ConditionDefinition-operations" key="List-ConditionDefinition-operations" name="ConditionDefinition-operations"/>
 <artifact id="SearchParameter/ConditionDefinition-context-quantity" key="SearchParameter-ConditionDefinition-context-quantity" name="ConditionDefinitionContext-quantitySearchParam"/>
 <artifact id="SearchParameter/ConditionDefinition-context-type-quantity" key="SearchParameter-ConditionDefinition-context-type-quantity" name="ConditionDefinitionContext-type-quantitySearchParam"/>
 <artifact id="SearchParameter/ConditionDefinition-context-type-value" key="SearchParameter-ConditionDefinition-context-type-value" name="ConditionDefinitionContext-type-valueSearchParam"/>
@@ -49,14 +46,14 @@
 <artifact id="ConditionDefinition/example" key="ConditionDefinition-example" name="Hyperlipidemia Status"/>
 <artifact id="ValueSet/investigation-sets" key="ValueSet-investigation-sets" name="Investigation Type"/>
 <artifact id="StructureDefinition/Linkage" key="StructureDefinition-Linkage" name="Linkage"/>
-<artifact id="ValueSet/linkage-type" key="ValueSet-linkage-type" name="Linkage Type"/>
 <artifact id="CodeSystem/linkage-type" key="CodeSystem-linkage-type" name="Linkage Type"/>
+<artifact id="ValueSet/linkage-type" key="ValueSet-linkage-type" name="Linkage Type ValueSet"/>
 <artifact id="List/Linkage-examples" key="List-Linkage-examples" name="Linkage-examples"/>
-<artifact id="List/Linkage-operations" key="List-Linkage-operations" name="Linkage-operations"/>
 <artifact id="SearchParameter/Linkage-author" key="SearchParameter-Linkage-author" name="LinkageAuthorSearchParam"/>
 <artifact id="SearchParameter/Linkage-item" key="SearchParameter-Linkage-item" name="LinkageItemSearchParam"/>
 <artifact id="SearchParameter/Linkage-source" key="SearchParameter-Linkage-source" name="LinkageSourceSearchParam"/>
-<artifact id="Linkage/example" key="Linkage-example" name="example"/>
+<artifact id="ClinicalAssessment/example" key="ClinicalAssessment-example" name="assessment-example"/>
+<artifact id="Linkage/example" key="Linkage-example" name="linkage-example"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

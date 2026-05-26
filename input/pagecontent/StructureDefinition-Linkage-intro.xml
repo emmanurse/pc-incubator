@@ -26,7 +26,7 @@ The Patient Care Work Group welcomes feedback <a href="http://hl7.org/fhir-issue
 <div>
 <h3>Boundaries and Relationships</h3>
 <p>
-Do not use Linkage for Patient, Person, and Encounter, see <a href="patient.html#linking">the explanation on Patient</a> for more details. The <a href="person.html">Person</a> resource should be used to link a person independent of a specific health-related context. Linkage can be used for all other use cases.
+Do not use Linkage for Patient, Person, and Encounter, see <a href="https://hl7.org/fhir/patient.html#linking">the explanation on Patient</a> for more details. The <a href="https://hl7.org/fhir/person.html">Person</a> resource should be used to link a person independent of a specific health-related context. Linkage can be used for all other use cases.
 </p>
 </div>
 
