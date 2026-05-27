@@ -77,11 +77,11 @@
         <expression value="ConditionDefinition.useContext"/>
         <processingMode value="normal"/>
         <component>
-          <definition value="context-type"/>
+          <definition value="http://hl7.org/fhir/SearchParameter/ConditionDefinition-context-type"/>
           <expression value="code"/>
         </component>
         <component>
-          <definition value="context-quantity"/>
+          <definition value="http://hl7.org/fhir/SearchParameter/ConditionDefinition-context-quantity"/>
           <expression value="value.ofType(Quantity) | value.ofType(Range)"/>
         </component>
       </SearchParameter>
@@ -102,11 +102,11 @@
         <expression value="ConditionDefinition.useContext"/>
         <processingMode value="normal"/>
         <component>
-          <definition value="context-type"/>
+          <definition value="http://hl7.org/fhir/SearchParameter/ConditionDefinition-context-type"/>
           <expression value="code"/>
         </component>
         <component>
-          <definition value="context"/>
+          <definition value="http://hl7.org/fhir/SearchParameter/ConditionDefinition-context"/>
           <expression value="value.ofType(CodeableConcept)"/>
         </component>
       </SearchParameter>
